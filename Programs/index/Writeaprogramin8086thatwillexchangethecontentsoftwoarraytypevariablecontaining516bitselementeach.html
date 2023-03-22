@@ -13,9 +13,9 @@
             
         mov cx, 05    
             
-exchange: mov al, [si]
-          xchg al, [di]
-          mov [si], al
+exchange: mov ax, [si]
+          xchg ax, [di]
+          mov [si], ax
           
           inc si
           inc di
